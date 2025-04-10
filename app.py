@@ -6,7 +6,8 @@ def lambda_handler(event, context):
             response = client.run_instances(
                             ImageId='ami-0614680123427b75e',
                                     InstanceType='t2.micro',
-                                            KeyName='AS400',   
+                                            KeyName='AWS',   
+
                                             
                                                     MaxCount=2,
                                                             MinCount=1
